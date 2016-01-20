@@ -1,14 +1,13 @@
 ---
+title: LAM Guide
 
 ---
 
-<% page_articles.each_with_index do |article, i| %>
+<div class="SiteTitle">
+  <h1>LAM Guide</h1>
+</div>
+
+<% blog('sections').articles.each_with_index do |article, i| %>
   <h2><%= article.title %></h2>
   <%= article.body %>
-<% end %>
-
-<% if paginate %>
-  <% if next_page %>
-    <p><%= link_to 'Next page', next_page %></p>
-  <% end %>
 <% end %>
