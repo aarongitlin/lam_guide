@@ -1,0 +1,15 @@
+//color block css
+
+.color-block {
+    @include span-columns(2);
+}
+.color-block__color {
+    width: 100%;
+    height: 6rem;
+}
+
+
+// colors
+.laz-yellow {
+    background-color: #FFB500;
+} 
