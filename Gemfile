@@ -11,7 +11,7 @@ source 'https://rubygems.org'
 # Middleman Gems
 gem "middleman", "~> 4.0.0"
 gem "middleman-blog"
-gem 'middleman-gh-pages'
+gem 'middleman-deploy'
 gem 'middleman-livereload'
 
 # Bourbon, Neat, Bitters
